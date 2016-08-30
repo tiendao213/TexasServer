@@ -1,0 +1,8 @@
+D:\TienDao\developersoft\photonserver\deploy\VuiLen\TexasServer\bin\TexasServer.Autofac.json
+D:\TienDao\developersoft\photonserver\deploy\VuiLen\TexasServer\bin\TexasServer.Log4net.config
+D:\TienDao\developersoft\photonserver\deploy\VuiLen\TexasServer\bin\VuiLen.TexasServer.dll.config
+D:\TienDao\developersoft\photonserver\deploy\VuiLen\TexasServer\bin\VuiLen.TexasServer.dll
+D:\TienDao\developersoft\photonserver\deploy\VuiLen\TexasServer\bin\VuiLen.TexasServer.pdb
+D:\TienDao\minhphuong\projects\vuilen\server\TexasServer\TexasServer\obj\Debug\TexasServer.csprojResolveAssemblyReference.cache
+D:\TienDao\minhphuong\projects\vuilen\server\TexasServer\TexasServer\obj\Debug\VuiLen.TexasServer.dll
+D:\TienDao\minhphuong\projects\vuilen\server\TexasServer\TexasServer\obj\Debug\VuiLen.TexasServer.pdb

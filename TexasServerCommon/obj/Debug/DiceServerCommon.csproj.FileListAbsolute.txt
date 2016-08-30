@@ -1,0 +1,10 @@
+C:\Users\tailu\Desktop\Dice\DiceServerCommon\bin\Debug\DiceServerCommon.dll
+C:\Users\tailu\Desktop\Dice\DiceServerCommon\bin\Debug\DiceServerCommon.pdb
+C:\Users\tailu\Desktop\Dice\DiceServerCommon\obj\Debug\DiceServerCommon.csprojResolveAssemblyReference.cache
+C:\Users\tailu\Desktop\Dice\DiceServerCommon\obj\Debug\DiceServerCommon.dll
+C:\Users\tailu\Desktop\Dice\DiceServerCommon\obj\Debug\DiceServerCommon.pdb
+D:\TienDao\minhphuong\projects\vuilen\server\Dice\DiceServerCommon\bin\Debug\DiceServerCommon.dll
+D:\TienDao\minhphuong\projects\vuilen\server\Dice\DiceServerCommon\bin\Debug\DiceServerCommon.pdb
+D:\TienDao\minhphuong\projects\vuilen\server\Dice\DiceServerCommon\obj\Debug\DiceServerCommon.dll
+D:\TienDao\minhphuong\projects\vuilen\server\Dice\DiceServerCommon\obj\Debug\DiceServerCommon.pdb
+D:\TienDao\minhphuong\projects\vuilen\server\Dice\DiceServerCommon\obj\Debug\DiceServerCommon.csprojResolveAssemblyReference.cache

@@ -1,0 +1,4 @@
+C:\data\PhotonServerV4\src-server\VuiLenServerFramework\DiceServerCommon\bin\Release\DiceServerCommon.dll
+C:\data\PhotonServerV4\src-server\VuiLenServerFramework\DiceServerCommon\bin\Release\DiceServerCommon.pdb
+C:\data\PhotonServerV4\src-server\VuiLenServerFramework\DiceServerCommon\obj\Release\DiceServerCommon.dll
+C:\data\PhotonServerV4\src-server\VuiLenServerFramework\DiceServerCommon\obj\Release\DiceServerCommon.pdb

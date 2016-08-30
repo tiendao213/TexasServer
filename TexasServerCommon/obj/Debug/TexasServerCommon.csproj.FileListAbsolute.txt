@@ -1,0 +1,4 @@
+D:\TienDao\developersoft\photonserver\deploy\VuiLen\TexasServer\bin\VuiLen.TexasServerCommon.dll
+D:\TienDao\developersoft\photonserver\deploy\VuiLen\TexasServer\bin\VuiLen.TexasServerCommon.pdb
+D:\TienDao\minhphuong\projects\vuilen\server\TexasServer\TexasServerCommon\obj\Debug\VuiLen.TexasServerCommon.dll
+D:\TienDao\minhphuong\projects\vuilen\server\TexasServer\TexasServerCommon\obj\Debug\VuiLen.TexasServerCommon.pdb

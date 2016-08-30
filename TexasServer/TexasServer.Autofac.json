@@ -1,0 +1,111 @@
+﻿{
+    
+	"components": 
+	[
+		{
+            "type": "VuiLenServerFramework.Implementation.Config.ServerConfiguration, VuiLenServerFramework",
+
+			"parameters": {
+                "AllowPhysicalClients": true,
+				"ParentPort": 4560,
+				"SiblingPort":4590,
+				"SubCodeParameterCode": 1,
+				"PeerIdCode": 8
+
+             },
+
+			 "properties": {
+				"PublicIpAddress": "192.168.0.107",
+				"TcpPort": 4533,
+				"UdpPort": 5058,
+				"ServerType": 8,
+				"ServerName": "TexasServer",
+			}
+           
+        },
+		{
+            "type": "VuiLenServerFramework.Implementation.Config.ServerTypeConfig, VuiLenServerFramework",
+			"parameters": {
+                "Name": "ProxyServer",
+				"ServerType": 1
+             }
+        },
+		{
+            "type": "VuiLenServerFramework.Implementation.Config.PeerData, VuiLenServerFramework",
+			"parameters": {
+                "ipAddress": "192.168.0.107",
+				"ipPort": 4520,
+				"connectRetryIntervalSeconds": 10,
+				"isSiblingConnection": false,
+				"maxTries": 100,
+				"ServerType": 1
+             }
+        },
+		{
+            "type": "VuiLenGameFramework.Room.Config.GameDefaultRoomConfig, VuiLenGameFramework",
+			"parameters": {
+                "name": "Texas 4",
+				"description": "Level 1",
+				"level": 4,
+				"isPersistence": true,
+				"isPrivate": false,
+				"key": "",
+				"owner": "VuiLen.com",
+				"withdrawMin" : 10,
+				"withdrawMax" : 0
+             }
+        },
+		{
+            "type": "VuiLenGameFramework.Room.Config.GameDefaultRoomConfig, VuiLenGameFramework",
+			"parameters": {
+                "name": "Texas 3",
+				"description": "Level 2",
+				"level": 3,
+				"isPersistence": true,
+				"isPrivate": false,
+				"key": "",
+				"owner": "VuiLen.com",
+				"withdrawMin" : 10000,
+				"withdrawMax" : 15000
+             }
+        },
+		
+		{
+            "type": "VuiLenGameFramework.Room.Config.GameDefaultRoomConfig, VuiLenGameFramework",
+			"parameters": {
+                "name": "Texas 2",
+				"description": "Level 2",
+				"level": 2,
+				"isPersistence": true,
+				"isPrivate": true,
+				"key": "123",
+				"owner": "VuiLen.com",
+				"withdrawMin" : 100000,
+				"withdrawMax" : 150000
+             }
+        },
+		{
+            "type": "VuiLenGameFramework.Room.Config.GameDefaultRoomConfig, VuiLenGameFramework",
+			"parameters": {
+                "name": "Texas 1",
+				"description": "Level 3",
+				"level": 3,
+				"isPersistence": true,
+				"isPrivate": false,
+				"key": "",
+				"owner": "VuiLen.com",
+				"withdrawMin" : 1000000,
+				"withdrawMax" : 1500000
+             }
+        },
+    ],
+	"modules": [
+        {
+			
+            "type": "VuiLen.TexasServer.TexasServerAutofacModule, VuiLen.TexasServer",
+			
+        },
+		
+    ]
+
+}

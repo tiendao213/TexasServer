@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{81505655-6B08-4EA3-8798-0085641A4F29}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>VuiLen.TexasServer</RootNamespace>
+    <AssemblyName>VuiLen.TexasServer</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\..\..\..\developersoft\photonserver\deploy\VuiLen\TexasServer\bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\..\deploy\VuiLen\DiceServer\bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Autofac, Version=4.0.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
+      <HintPath>..\packages\Autofac.4.0.0-rc1-177\lib\net45\Autofac.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Autofac.Configuration, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Autofac.Configuration.4.0.0-rc1-268\lib\net451\Autofac.Configuration.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Autofac.Dispatcher, Version=1.0.0.8, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Autofac.Dispatcher.1.0.0.8\lib\net45\Autofac.Dispatcher.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ExitGames.Logging.Log4Net">
+      <HintPath>..\libs\ExitGames.Logging.Log4Net.dll</HintPath>
+    </Reference>
+    <Reference Include="ExitGamesLibs">
+      <HintPath>..\libs\ExitGamesLibs.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\libs\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Experimental.Collections, Version=1.0.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Experimental.Collections.1.0.3-alpha\lib\portable-net45+win8+wp8\Microsoft.Experimental.Collections.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Configuration.1.0.0-rc1-final\lib\net451\Microsoft.Extensions.Configuration.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration.Abstractions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Configuration.Abstractions.1.0.0-rc1-final\lib\net451\Microsoft.Extensions.Configuration.Abstractions.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration.FileExtensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Configuration.FileExtensions.1.0.0-rc1-final\lib\net451\Microsoft.Extensions.Configuration.FileExtensions.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration.Json, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Configuration.Json.1.0.0-rc1-final\lib\net451\Microsoft.Extensions.Configuration.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Primitives, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Primitives.1.0.0-rc1-final\lib\net451\Microsoft.Extensions.Primitives.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.8.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Photon.SocketServer">
+      <HintPath>..\libs\Photon.SocketServer.dll</HintPath>
+    </Reference>
+    <Reference Include="PhotonHostRuntimeInterfaces">
+      <HintPath>..\libs\PhotonHostRuntimeInterfaces.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Stateless, Version=2.5.62.0, Culture=neutral, PublicKeyToken=93038f0927583c9a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stateless.2.5.62.0\lib\portable-net40+sl50+win+wp80+MonoAndroid10+xamarinios10+MonoTouch10\Stateless.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="VuiLenGameFramework, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Dice\libs\VuiLenGameFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="VuiLenServerCommon, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\libs\VuiLenServerCommon.dll</HintPath>
+    </Reference>
+    <Reference Include="VuiLenServerFramework">
+      <HintPath>..\libs\VuiLenServerFramework.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BackgroundThreads\TexasBackgroundThread.cs" />
+    <Compile Include="game\Config\TexasConfig.cs" />
+    <Compile Include="game\Controllers\Initializes\TexasPrepareControllerCommand.cs" />
+    <Compile Include="game\Controllers\Initializes\TexasPrepareModelCommand.cs" />
+    <Compile Include="game\Controllers\Initializes\TexasPrepareViewCommand.cs" />
+    <Compile Include="game\Controllers\Initializes\TexasStartupCommand.cs" />
+    <Compile Include="game\Controllers\Room\TexasSitDownListener.cs" />
+    <Compile Include="game\Controllers\Room\TexasJoinRoomCommand.cs" />
+    <Compile Include="game\Controllers\Room\TexasLeaveRoomCommand.cs" />
+    <Compile Include="game\Controllers\States\Actions\TexasUpdateSlotCommand.cs" />
+    <Compile Include="game\Controllers\States\Actions\TexasSitCommand.cs" />
+    <Compile Include="game\Controllers\States\Actions\TexasBetCommand.cs" />
+    <Compile Include="game\Controllers\States\TexasCalculatingState.cs" />
+    <Compile Include="game\Controllers\States\TexasDoneState.cs" />
+    <Compile Include="game\Controllers\States\TexasFlipCardState.cs" />
+    <Compile Include="game\Controllers\States\TexasPlayState.cs" />
+    <Compile Include="game\Controllers\States\TexasTurnState.cs" />
+    <Compile Include="game\Controllers\States\TexasFlopState.cs" />
+    <Compile Include="game\Controllers\States\TexasPreFlopState.cs" />
+    <Compile Include="game\Controllers\States\TexasRiverState.cs" />
+    <Compile Include="game\Controllers\States\TexasShowDownState.cs" />
+    <Compile Include="game\Controllers\States\TexasWaitingNewGameState.cs" />
+    <Compile Include="game\Controllers\States\TexasStartGameState.cs" />
+    <Compile Include="game\Controllers\TestCommand.cs" />
+    <Compile Include="game\Models\TexasModel.cs" />
+    <Compile Include="game\Models\vos\Card.cs" />
+    <Compile Include="game\Models\vos\ChipPot.cs" />
+    <Compile Include="game\Models\vos\Slot.cs" />
+    <Compile Include="game\Models\vos\TexasRoomUser.cs" />
+    <Compile Include="game\StateMachine\TexasStateMachine.cs" />
+    <Compile Include="game\StateMachine\TexasStates.cs" />
+    <Compile Include="game\StateMachine\TexasTrigger.cs" />
+    <Compile Include="game\TexasApplication.cs" />
+    <Compile Include="Handlers\CreateRoomTexasHandler.cs" />
+    <Compile Include="Handlers\TexasBetHandler.cs" />
+    <Compile Include="Handlers\TexasBuyinSuccessHandler.cs" />
+    <Compile Include="Handlers\TexasDepositSuccessHandler.cs" />
+    <Compile Include="Handlers\TexasStartGameHandler.cs" />
+    <Compile Include="Operations\BetOperator.cs" />
+    <Compile Include="Operations\BuyinOperator.cs" />
+    <Compile Include="Operations\BuyinSuccessOperator.cs" />
+    <Compile Include="Handlers\TexasSetHandler.cs" />
+    <Compile Include="Handlers\TexasBuyinRoomHandler.cs" />
+    <Compile Include="Handlers\TexasSitHandler.cs" />
+    <Compile Include="Handlers\TexasStatusHandler.cs" />
+    <Compile Include="Operations\DepositSuccessOperator.cs" />
+    <Compile Include="Operations\SitOperator.cs" />
+    <Compile Include="Operations\StartGameOperator.cs" />
+    <Compile Include="Operations\StatusOperator.cs" />
+    <Compile Include="Operations\WithdrawRoomOperator.cs" />
+    <Compile Include="TexasServer.cs" />
+    <Compile Include="TexasServerAutofacModule.cs" />
+    <Compile Include="game\TexasNotification.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="game\Views\TexasListener.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TexasServer.Autofac.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="TexasServer.Log4net.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Events\" />
+    <Folder Include="game\Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TexasServerCommon\TexasServerCommon.csproj">
+      <Project>{67dd0370-366d-4f36-ac4a-bcbdb752751f}</Project>
+      <Name>TexasServerCommon</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
