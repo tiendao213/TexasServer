@@ -95,14 +95,15 @@
     <Reference Include="System.Core" />
     <Reference Include="VuiLenGameFramework, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\Dice\libs\VuiLenGameFramework.dll</HintPath>
+      <HintPath>..\..\..\libs\VuiLenGameFramework.dll</HintPath>
     </Reference>
     <Reference Include="VuiLenServerCommon, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\libs\VuiLenServerCommon.dll</HintPath>
     </Reference>
-    <Reference Include="VuiLenServerFramework">
-      <HintPath>..\libs\VuiLenServerFramework.dll</HintPath>
+    <Reference Include="VuiLenServerFramework, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\libs\VuiLenServerFramework.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

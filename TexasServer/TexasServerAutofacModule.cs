@@ -20,7 +20,9 @@ namespace VuiLen.TexasServer
             builder.RegisterType<TexasBuyinSuccessHandler>().AsImplementedInterfaces();
             builder.RegisterType<TexasDepositSuccessHandler>().AsImplementedInterfaces();
             builder.RegisterType<TexasBetHandler>().AsImplementedInterfaces();
-            
+
+            builder.RegisterType<CreateRoomTexasHandler>().AsImplementedInterfaces();
+
 
             builder.RegisterType<InfoRoomHandler>().AsImplementedInterfaces();
             builder.RegisterType<UserListRoomHandler>().AsImplementedInterfaces();

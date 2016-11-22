@@ -18,7 +18,6 @@ namespace VuiLen.TexasServer.Operations
 
         public StartGameOperator()
         {
-
         }
 
         [DataMember(Code = (byte)ServerParameterCode.PeerId, IsOptional = false)]

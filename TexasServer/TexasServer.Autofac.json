@@ -44,11 +44,13 @@
 		{
             "type": "VuiLenGameFramework.Room.Config.GameDefaultRoomConfig, VuiLenGameFramework",
 			"parameters": {
-                "name": "Texas 4",
+				"name": "Texas 4",
+				"roomType" : 8,
 				"description": "Level 1",
 				"level": 4,
 				"isPersistence": true,
 				"isPrivate": false,
+				"isTesting": false,
 				"key": "",
 				"owner": "VuiLen.com",
 				"withdrawMin" : 10,
@@ -58,11 +60,13 @@
 		{
             "type": "VuiLenGameFramework.Room.Config.GameDefaultRoomConfig, VuiLenGameFramework",
 			"parameters": {
-                "name": "Texas 3",
+				"name": "Texas 3",
+				"roomType" : 8,
 				"description": "Level 2",
 				"level": 3,
 				"isPersistence": true,
 				"isPrivate": false,
+				"isTesting": false,
 				"key": "",
 				"owner": "VuiLen.com",
 				"withdrawMin" : 10000,
@@ -73,11 +77,13 @@
 		{
             "type": "VuiLenGameFramework.Room.Config.GameDefaultRoomConfig, VuiLenGameFramework",
 			"parameters": {
-                "name": "Texas 2",
+				"name": "Texas 2",
+				"roomType" : 8,
 				"description": "Level 2",
 				"level": 2,
 				"isPersistence": true,
 				"isPrivate": true,
+				"isTesting": false,
 				"key": "123",
 				"owner": "VuiLen.com",
 				"withdrawMin" : 100000,
@@ -87,11 +93,13 @@
 		{
             "type": "VuiLenGameFramework.Room.Config.GameDefaultRoomConfig, VuiLenGameFramework",
 			"parameters": {
-                "name": "Texas 1",
+				"name": "Texas 1",
+				"roomType" : 8,
 				"description": "Level 3",
 				"level": 3,
 				"isPersistence": true,
 				"isPrivate": false,
+				"isTesting": false,
 				"key": "",
 				"owner": "VuiLen.com",
 				"withdrawMin" : 1000000,

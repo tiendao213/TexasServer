@@ -37,6 +37,7 @@ namespace VuiLen.TexasServer.Handlers
                         { (byte)ServerParameterCode.PeerId, message.Parameters[(byte)ServerParameterCode.PeerId] },
                         { (byte)ClientParameterCode.SubOperationCode,message.Parameters[(byte)ClientParameterCode.SubOperationCode]},
                         { (byte)RoomParameterCode.Item, JsonConvert.SerializeObject(roomItem)},
+                        { (byte)ClientParameterCode.ModuleId, message.Parameters[(byte)ClientParameterCode.ModuleId] },
                     };
                     var responseMessage = new Response((byte)RoomOperationCode.Create, null, param, "Room Create Success", (byte)ErrorCode.OK);
                     serverPeer.SendMessage(responseMessage);
